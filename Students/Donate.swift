@@ -26,7 +26,7 @@ struct DonateFundsList: View {
     
     @State var FirstName: String = ""
     @State var LastName: String = ""
-    @State var CompanyName: String = ""
+
     @State var Address: String = ""
     @State var Email: String = ""
     
@@ -53,7 +53,7 @@ struct DonateFundsList: View {
             Section(header: Text("Donation Invoice").font(.system(size: 30, weight: .bold, design: .rounded))) {
                 TextField("First Name", text: $FirstName)
                 TextField("Last Name", text: $LastName)
-                TextField("Company Name", text: $CompanyName)
+ 
                 TextField("Address", text: $Address)
                 TextField("Email", text: $Email)
             }

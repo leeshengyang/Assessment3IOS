@@ -1,4 +1,4 @@
-//jiafu sun
+//
 //  Donate.swift
 //  Landmarks
 //

@@ -22,8 +22,7 @@ struct DonateFundsList: View {
     @State var CCLastName: String = ""
     @State var Amount: String = ""
     @State var CCExpiry: String = ""
-    @State var CreditCard: String = ""
-    @State var CVV: String = ""
+
     
     @State var FirstName: String = ""
     @State var LastName: String = ""
@@ -48,9 +47,7 @@ struct DonateFundsList: View {
                     TextField("First Name", text: $CCFirstName)
                     TextField("Last Name", text: $CCLastName)
                     TextField("Amount", text: $Amount)
-                    TextField("Expiry Date", text: $CCExpiry)
-                    TextField("Credit Card Number", text: $CreditCard)
-                    TextField("CVV", text: $CVV)
+
                 }
             
             Section(header: Text("Donation Invoice").font(.system(size: 30, weight: .bold, design: .rounded))) {

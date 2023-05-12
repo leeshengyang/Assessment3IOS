@@ -17,7 +17,8 @@ struct MenuOption: Identifiable, Hashable {
             .init(title: "Launch", systemImageName: "airplane.circle"),
             .init(title: "Locations", systemImageName: "mappin.circle"),
             .init(title: "Rewards", systemImageName: "dollarsign.circle"),
-            .init(title: "Health Insurance", systemImageName: "dollarsign.circle")
+            .init(title: "Health Insurance", systemImageName: "dollarsign.circle"),
+            .init(title: "Job Hunting Guide", systemImageName: "dollarsign.circle")
         ]
     }
 }
@@ -102,6 +103,8 @@ struct ContentView: View {
                 Rewards()
                // HealthInsuraceView()
               //  Scanner(classifier: ImageClassifier())
+            case "Job Hunting Guide":
+                job_Hunt_Menu_View()
             default:
                 Text("Shouldn't happen")
             }

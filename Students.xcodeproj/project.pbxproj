@@ -25,6 +25,13 @@
 		2969ACF52A0759C400852462 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969ACE52A0759C400852462 /* LocationService.swift */; };
 		6C4A0BB22A0E677E00B80B35 /* Tips1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0BB12A0E677E00B80B35 /* Tips1.swift */; };
 		6C4A0BB42A0E67E800B80B35 /* Tips2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0BB32A0E67E800B80B35 /* Tips2.swift */; };
+		6C4A0BB62A0E699D00B80B35 /* Tips3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0BB52A0E699D00B80B35 /* Tips3.swift */; };
+		6C4A0BB82A0E69F300B80B35 /* Tips4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0BB72A0E69F300B80B35 /* Tips4.swift */; };
+		6C4A0BBA2A0E6A3200B80B35 /* Tips5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0BB92A0E6A3200B80B35 /* Tips5.swift */; };
+		6C4A0BBC2A0E6A5400B80B35 /* Tips6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0BBB2A0E6A5400B80B35 /* Tips6.swift */; };
+		6C4A0BBE2A0E6A9600B80B35 /* Tips7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0BBD2A0E6A9600B80B35 /* Tips7.swift */; };
+		6C4A0BC02A0E6B0300B80B35 /* JobHuntIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0BBF2A0E6B0300B80B35 /* JobHuntIntro.swift */; };
+		6C4A0BC22A0E6B3F00B80B35 /* JobHuntMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0BC12A0E6B3F00B80B35 /* JobHuntMenuView.swift */; };
 		CEE479562A0E493000B759CE /* Health in Resources */ = {isa = PBXBuildFile; fileRef = CEE479552A0E493000B759CE /* Health */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +55,13 @@
 		3E2F9A552861791000DA4403 /* Food Donator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Donator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C4A0BB12A0E677E00B80B35 /* Tips1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips1.swift; sourceTree = "<group>"; };
 		6C4A0BB32A0E67E800B80B35 /* Tips2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips2.swift; sourceTree = "<group>"; };
+		6C4A0BB52A0E699D00B80B35 /* Tips3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips3.swift; sourceTree = "<group>"; };
+		6C4A0BB72A0E69F300B80B35 /* Tips4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips4.swift; sourceTree = "<group>"; };
+		6C4A0BB92A0E6A3200B80B35 /* Tips5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips5.swift; sourceTree = "<group>"; };
+		6C4A0BBB2A0E6A5400B80B35 /* Tips6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips6.swift; sourceTree = "<group>"; };
+		6C4A0BBD2A0E6A9600B80B35 /* Tips7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips7.swift; sourceTree = "<group>"; };
+		6C4A0BBF2A0E6B0300B80B35 /* JobHuntIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobHuntIntro.swift; sourceTree = "<group>"; };
+		6C4A0BC12A0E6B3F00B80B35 /* JobHuntMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobHuntMenuView.swift; sourceTree = "<group>"; };
 		CEE479552A0E493000B759CE /* Health */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Health; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,8 +144,15 @@
 		6C4A0BB02A0E676C00B80B35 /* Job Hunt */ = {
 			isa = PBXGroup;
 			children = (
+				6C4A0BC12A0E6B3F00B80B35 /* JobHuntMenuView.swift */,
+				6C4A0BBF2A0E6B0300B80B35 /* JobHuntIntro.swift */,
 				6C4A0BB12A0E677E00B80B35 /* Tips1.swift */,
 				6C4A0BB32A0E67E800B80B35 /* Tips2.swift */,
+				6C4A0BB52A0E699D00B80B35 /* Tips3.swift */,
+				6C4A0BB72A0E69F300B80B35 /* Tips4.swift */,
+				6C4A0BB92A0E6A3200B80B35 /* Tips5.swift */,
+				6C4A0BBB2A0E6A5400B80B35 /* Tips6.swift */,
+				6C4A0BBD2A0E6A9600B80B35 /* Tips7.swift */,
 			);
 			path = "Job Hunt";
 			sourceTree = "<group>";
@@ -207,17 +228,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C4A0BBC2A0E6A5400B80B35 /* Tips6.swift in Sources */,
 				2969ACF52A0759C400852462 /* LocationService.swift in Sources */,
 				2969ACEF2A0759C400852462 /* ImageClassifier.swift in Sources */,
+				6C4A0BC22A0E6B3F00B80B35 /* JobHuntMenuView.swift in Sources */,
 				2969ACE82A0759C400852462 /* Donate.swift in Sources */,
+				6C4A0BBE2A0E6A9600B80B35 /* Tips7.swift in Sources */,
+				6C4A0BC02A0E6B0300B80B35 /* JobHuntIntro.swift in Sources */,
+				6C4A0BB62A0E699D00B80B35 /* Tips3.swift in Sources */,
 				2969ACF32A0759C400852462 /* SwiftUIView.swift in Sources */,
 				2969ACEC2A0759C400852462 /* Detail.swift in Sources */,
 				2969ACF02A0759C400852462 /* ImagePicker.swift in Sources */,
 				2969ACEB2A0759C400852462 /* LocationView.swift in Sources */,
 				2969ACED2A0759C400852462 /* LocationDetail.swift in Sources */,
 				6C4A0BB42A0E67E800B80B35 /* Tips2.swift in Sources */,
+				6C4A0BB82A0E69F300B80B35 /* Tips4.swift in Sources */,
 				2969ACE92A0759C400852462 /* StudentApp.swift in Sources */,
 				2969ACE62A0759C400852462 /* Rewards.swift in Sources */,
+				6C4A0BBA2A0E6A3200B80B35 /* Tips5.swift in Sources */,
 				6C4A0BB22A0E677E00B80B35 /* Tips1.swift in Sources */,
 				2969ACF12A0759C400852462 /* Scanner.swift in Sources */,
 				2969ACF42A0759C400852462 /* ContentView.swift in Sources */,

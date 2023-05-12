@@ -35,3 +35,4 @@ struct job_hunt_tips_2_Previews: PreviewProvider {
         job_hunt_tips_2()
     }
 }
+

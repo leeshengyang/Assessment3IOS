@@ -23,6 +23,7 @@
 		2969ACF32A0759C400852462 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969ACE32A0759C400852462 /* SwiftUIView.swift */; };
 		2969ACF42A0759C400852462 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969ACE42A0759C400852462 /* ContentView.swift */; };
 		2969ACF52A0759C400852462 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969ACE52A0759C400852462 /* LocationService.swift */; };
+		6C4A0BB22A0E677E00B80B35 /* Tips1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0BB12A0E677E00B80B35 /* Tips1.swift */; };
 		CEE479562A0E493000B759CE /* Health in Resources */ = {isa = PBXBuildFile; fileRef = CEE479552A0E493000B759CE /* Health */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		2969ACE42A0759C400852462 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2969ACE52A0759C400852462 /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		3E2F9A552861791000DA4403 /* Food Donator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Donator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4A0BB12A0E677E00B80B35 /* Tips1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips1.swift; sourceTree = "<group>"; };
 		CEE479552A0E493000B759CE /* Health */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Health; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +63,7 @@
 		2969ACD22A0759C400852462 /* Students */ = {
 			isa = PBXGroup;
 			children = (
+				6C4A0BB02A0E676C00B80B35 /* Job Hunt */,
 				CEE479552A0E493000B759CE /* Health */,
 				2969ACD32A0759C400852462 /* Rewards */,
 				2969ACD52A0759C400852462 /* Assets.xcassets */,
@@ -120,6 +123,14 @@
 				3E2F9A552861791000DA4403 /* Food Donator.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6C4A0BB02A0E676C00B80B35 /* Job Hunt */ = {
+			isa = PBXGroup;
+			children = (
+				6C4A0BB12A0E677E00B80B35 /* Tips1.swift */,
+			);
+			path = "Job Hunt";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +214,7 @@
 				2969ACED2A0759C400852462 /* LocationDetail.swift in Sources */,
 				2969ACE92A0759C400852462 /* StudentApp.swift in Sources */,
 				2969ACE62A0759C400852462 /* Rewards.swift in Sources */,
+				6C4A0BB22A0E677E00B80B35 /* Tips1.swift in Sources */,
 				2969ACF12A0759C400852462 /* Scanner.swift in Sources */,
 				2969ACF42A0759C400852462 /* ContentView.swift in Sources */,
 				2969ACF22A0759C400852462 /* MobileNetV2.mlmodel in Sources */,

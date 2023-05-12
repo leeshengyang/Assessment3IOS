@@ -32,6 +32,14 @@
 		6C4A0BBE2A0E6A9600B80B35 /* Tips7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0BBD2A0E6A9600B80B35 /* Tips7.swift */; };
 		6C4A0BC02A0E6B0300B80B35 /* JobHuntIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0BBF2A0E6B0300B80B35 /* JobHuntIntro.swift */; };
 		6C4A0BC22A0E6B3F00B80B35 /* JobHuntMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0BC12A0E6B3F00B80B35 /* JobHuntMenuView.swift */; };
+		6C4A92EE2A0E76D90052CCE4 /* DefinitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A92ED2A0E76D90052CCE4 /* DefinitionView.swift */; };
+		6C4A92F02A0E770F0052CCE4 /* FurtherInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A92EF2A0E770F0052CCE4 /* FurtherInformationView.swift */; };
+		6C4A92F22A0E77290052CCE4 /* HealthInsuranceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A92F12A0E77290052CCE4 /* HealthInsuranceView.swift */; };
+		6C4A92F42A0E777B0052CCE4 /* OffersAndCostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A92F32A0E777B0052CCE4 /* OffersAndCostView.swift */; };
+		6C4A92F62A0E778F0052CCE4 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A92F52A0E778F0052CCE4 /* PaymentView.swift */; };
+		6C4A92F82A0E77A90052CCE4 /* RequiredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A92F72A0E77A80052CCE4 /* RequiredView.swift */; };
+		6C4A92FA2A0E77CB0052CCE4 /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A92F92A0E77CB0052CCE4 /* ServicesView.swift */; };
+		6C4A92FC2A0E77E60052CCE4 /* TreatmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A92FB2A0E77E60052CCE4 /* TreatmentView.swift */; };
 		CEE479562A0E493000B759CE /* Health in Resources */ = {isa = PBXBuildFile; fileRef = CEE479552A0E493000B759CE /* Health */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +70,14 @@
 		6C4A0BBD2A0E6A9600B80B35 /* Tips7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips7.swift; sourceTree = "<group>"; };
 		6C4A0BBF2A0E6B0300B80B35 /* JobHuntIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobHuntIntro.swift; sourceTree = "<group>"; };
 		6C4A0BC12A0E6B3F00B80B35 /* JobHuntMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobHuntMenuView.swift; sourceTree = "<group>"; };
+		6C4A92ED2A0E76D90052CCE4 /* DefinitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionView.swift; sourceTree = "<group>"; };
+		6C4A92EF2A0E770F0052CCE4 /* FurtherInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurtherInformationView.swift; sourceTree = "<group>"; };
+		6C4A92F12A0E77290052CCE4 /* HealthInsuranceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthInsuranceView.swift; sourceTree = "<group>"; };
+		6C4A92F32A0E777B0052CCE4 /* OffersAndCostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersAndCostView.swift; sourceTree = "<group>"; };
+		6C4A92F52A0E778F0052CCE4 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		6C4A92F72A0E77A80052CCE4 /* RequiredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequiredView.swift; sourceTree = "<group>"; };
+		6C4A92F92A0E77CB0052CCE4 /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
+		6C4A92FB2A0E77E60052CCE4 /* TreatmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentView.swift; sourceTree = "<group>"; };
 		CEE479552A0E493000B759CE /* Health */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Health; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +97,7 @@
 			children = (
 				6C4A0BB02A0E676C00B80B35 /* Job Hunt */,
 				CEE479552A0E493000B759CE /* Health */,
+				6C4A92EC2A0E76C00052CCE4 /* Health Insurance */,
 				2969ACD32A0759C400852462 /* Rewards */,
 				2969ACD52A0759C400852462 /* Assets.xcassets */,
 				2969ACD62A0759C400852462 /* Donate.swift */,
@@ -157,6 +174,21 @@
 			path = "Job Hunt";
 			sourceTree = "<group>";
 		};
+		6C4A92EC2A0E76C00052CCE4 /* Health Insurance */ = {
+			isa = PBXGroup;
+			children = (
+				6C4A92F12A0E77290052CCE4 /* HealthInsuranceView.swift */,
+				6C4A92ED2A0E76D90052CCE4 /* DefinitionView.swift */,
+				6C4A92EF2A0E770F0052CCE4 /* FurtherInformationView.swift */,
+				6C4A92F32A0E777B0052CCE4 /* OffersAndCostView.swift */,
+				6C4A92F52A0E778F0052CCE4 /* PaymentView.swift */,
+				6C4A92F72A0E77A80052CCE4 /* RequiredView.swift */,
+				6C4A92F92A0E77CB0052CCE4 /* ServicesView.swift */,
+				6C4A92FB2A0E77E60052CCE4 /* TreatmentView.swift */,
+			);
+			path = "Health Insurance";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -228,27 +260,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C4A92F02A0E770F0052CCE4 /* FurtherInformationView.swift in Sources */,
 				6C4A0BBC2A0E6A5400B80B35 /* Tips6.swift in Sources */,
 				2969ACF52A0759C400852462 /* LocationService.swift in Sources */,
 				2969ACEF2A0759C400852462 /* ImageClassifier.swift in Sources */,
 				6C4A0BC22A0E6B3F00B80B35 /* JobHuntMenuView.swift in Sources */,
+				6C4A92F82A0E77A90052CCE4 /* RequiredView.swift in Sources */,
 				2969ACE82A0759C400852462 /* Donate.swift in Sources */,
 				6C4A0BBE2A0E6A9600B80B35 /* Tips7.swift in Sources */,
+				6C4A92FC2A0E77E60052CCE4 /* TreatmentView.swift in Sources */,
 				6C4A0BC02A0E6B0300B80B35 /* JobHuntIntro.swift in Sources */,
 				6C4A0BB62A0E699D00B80B35 /* Tips3.swift in Sources */,
+				6C4A92F62A0E778F0052CCE4 /* PaymentView.swift in Sources */,
 				2969ACF32A0759C400852462 /* SwiftUIView.swift in Sources */,
 				2969ACEC2A0759C400852462 /* Detail.swift in Sources */,
 				2969ACF02A0759C400852462 /* ImagePicker.swift in Sources */,
 				2969ACEB2A0759C400852462 /* LocationView.swift in Sources */,
 				2969ACED2A0759C400852462 /* LocationDetail.swift in Sources */,
+				6C4A92EE2A0E76D90052CCE4 /* DefinitionView.swift in Sources */,
 				6C4A0BB42A0E67E800B80B35 /* Tips2.swift in Sources */,
+				6C4A92F42A0E777B0052CCE4 /* OffersAndCostView.swift in Sources */,
 				6C4A0BB82A0E69F300B80B35 /* Tips4.swift in Sources */,
 				2969ACE92A0759C400852462 /* StudentApp.swift in Sources */,
 				2969ACE62A0759C400852462 /* Rewards.swift in Sources */,
 				6C4A0BBA2A0E6A3200B80B35 /* Tips5.swift in Sources */,
 				6C4A0BB22A0E677E00B80B35 /* Tips1.swift in Sources */,
 				2969ACF12A0759C400852462 /* Scanner.swift in Sources */,
+				6C4A92FA2A0E77CB0052CCE4 /* ServicesView.swift in Sources */,
 				2969ACF42A0759C400852462 /* ContentView.swift in Sources */,
+				6C4A92F22A0E77290052CCE4 /* HealthInsuranceView.swift in Sources */,
 				2969ACF22A0759C400852462 /* MobileNetV2.mlmodel in Sources */,
 				2969ACEE2A0759C400852462 /* Account.swift in Sources */,
 			);

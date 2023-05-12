@@ -14,10 +14,10 @@ struct MenuOption: Identifiable, Hashable {
     
     static func all() -> [MenuOption] {
         [
-            .init(title: "Launch", systemImageName: "airplane.circle"),
-            .init(title: "Locations", systemImageName: "mappin.circle"),
-            .init(title: "Rewards", systemImageName: "dollarsign.circle"),
-            .init(title: "Health Insurance", systemImageName: "dollarsign.circle"),
+//            .init(title: "Launch", systemImageName: "airplane.circle"),
+//            .init(title: "Locations", systemImageName: "mappin.circle"),
+//            .init(title: "Rewards", systemImageName: "dollarsign.circle"),
+            .init(title: "Health Insurance", systemImageName: "heart.circle"),
             .init(title: "Job Hunting Guide", systemImageName: "dollarsign.circle")
         ]
     }
@@ -100,9 +100,8 @@ struct ContentView: View {
             case "Launch":
                 Scanner(classifier: ImageClassifier())
             case "Health Insurance":
-                Rewards()
-               // HealthInsuraceView()
-              //  Scanner(classifier: ImageClassifier())
+                HealthInsuraceView()
+
             case "Job Hunting Guide":
                 job_Hunt_Menu_View()
             default:

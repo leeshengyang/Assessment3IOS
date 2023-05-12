@@ -54,10 +54,11 @@ struct DonateFundsList: View {
             Section(header: Text("Donation Invoice").font(.system(size: 30, weight: .bold, design: .rounded))) {
                 TextField("First Name", text: $FirstName)
                 TextField("Last Name", text: $LastName)
+                //TextField("Last Name", text: $LastName)
  
                 TextField("Address", text: $Address)
                 TextField("Email", text: $Email)
-               // TextField("Email", text: $Email)
+               
             }
         }
         }

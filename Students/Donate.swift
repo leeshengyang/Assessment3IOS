@@ -57,6 +57,7 @@ struct DonateFundsList: View {
  
                 TextField("Address", text: $Address)
                 TextField("Email", text: $Email)
+               // TextField("Email", text: $Email)
             }
         }
         }

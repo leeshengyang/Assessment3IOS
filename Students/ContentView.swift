@@ -101,7 +101,6 @@ struct ContentView: View {
                 Scanner(classifier: ImageClassifier())
             case "Health Insurance":
                 HealthInsuraceView()
-
             case "Job Hunting Guide":
                 job_Hunt_Menu_View()
             default:

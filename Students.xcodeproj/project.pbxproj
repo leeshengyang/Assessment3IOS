@@ -40,7 +40,6 @@
 		6C4A92F82A0E77A90052CCE4 /* RequiredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A92F72A0E77A80052CCE4 /* RequiredView.swift */; };
 		6C4A92FA2A0E77CB0052CCE4 /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A92F92A0E77CB0052CCE4 /* ServicesView.swift */; };
 		6C4A92FC2A0E77E60052CCE4 /* TreatmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A92FB2A0E77E60052CCE4 /* TreatmentView.swift */; };
-		CEE479562A0E493000B759CE /* Health in Resources */ = {isa = PBXBuildFile; fileRef = CEE479552A0E493000B759CE /* Health */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,7 +77,6 @@
 		6C4A92F72A0E77A80052CCE4 /* RequiredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequiredView.swift; sourceTree = "<group>"; };
 		6C4A92F92A0E77CB0052CCE4 /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
 		6C4A92FB2A0E77E60052CCE4 /* TreatmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentView.swift; sourceTree = "<group>"; };
-		CEE479552A0E493000B759CE /* Health */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Health; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				6C4A0BB02A0E676C00B80B35 /* Job Hunt */,
-				CEE479552A0E493000B759CE /* Health */,
 				6C4A92EC2A0E76C00052CCE4 /* Health Insurance */,
 				2969ACD32A0759C400852462 /* Rewards */,
 				2969ACD52A0759C400852462 /* Assets.xcassets */,
@@ -249,7 +246,6 @@
 			files = (
 				2969ACEA2A0759C400852462 /* Preview Assets.xcassets in Resources */,
 				2969ACE72A0759C400852462 /* Assets.xcassets in Resources */,
-				CEE479562A0E493000B759CE /* Health in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

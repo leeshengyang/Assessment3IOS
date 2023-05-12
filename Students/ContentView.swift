@@ -16,7 +16,8 @@ struct MenuOption: Identifiable, Hashable {
         [
             .init(title: "Launch", systemImageName: "airplane.circle"),
             .init(title: "Locations", systemImageName: "mappin.circle"),
-            .init(title: "Rewards", systemImageName: "dollarsign.circle")
+            .init(title: "Rewards", systemImageName: "dollarsign.circle"),
+            .init(title: "Health Insurance", systemImageName: "dollarsign.circle")
         ]
     }
 }
@@ -97,6 +98,10 @@ struct ContentView: View {
                 Rewards()
             case "Launch":
                 Scanner(classifier: ImageClassifier())
+            case "Health Insurance":
+                Rewards()
+               // HealthInsuraceView()
+              //  Scanner(classifier: ImageClassifier())
             default:
                 Text("Shouldn't happen")
             }

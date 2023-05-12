@@ -44,6 +44,16 @@
 		2969ACE42A0759C400852462 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2969ACE52A0759C400852462 /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		3E2F9A552861791000DA4403 /* Food Donator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Donator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C43C6F92A0E4F5F00D77B7E /* Tips1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips1.swift; sourceTree = "<group>"; };
+		6C43C6FA2A0E4F5F00D77B7E /* Tips3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips3.swift; sourceTree = "<group>"; };
+		6C43C6FB2A0E4F5F00D77B7E /* tips_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tips_1.swift; sourceTree = "<group>"; };
+		6C43C6FC2A0E4F5F00D77B7E /* Tips7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips7.swift; sourceTree = "<group>"; };
+		6C43C6FD2A0E4F5F00D77B7E /* Tips5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips5.swift; sourceTree = "<group>"; };
+		6C43C6FE2A0E4F5F00D77B7E /* Tips2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips2.swift; sourceTree = "<group>"; };
+		6C43C6FF2A0E4F5F00D77B7E /* Job_Hunting_Guide_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job_Hunting_Guide_View.swift; sourceTree = "<group>"; };
+		6C43C7002A0E4F5F00D77B7E /* Tips4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips4.swift; sourceTree = "<group>"; };
+		6C43C7012A0E4F5F00D77B7E /* Tips6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips6.swift; sourceTree = "<group>"; };
+		6C43C7022A0E4F5F00D77B7E /* Job_Hunt_Menu_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job_Hunt_Menu_View.swift; sourceTree = "<group>"; };
 		CEE479552A0E493000B759CE /* Health */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Health; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +71,7 @@
 		2969ACD22A0759C400852462 /* Students */ = {
 			isa = PBXGroup;
 			children = (
+				6C43C6F82A0E4F5F00D77B7E /* Job_hunt */,
 				CEE479552A0E493000B759CE /* Health */,
 				2969ACD32A0759C400852462 /* Rewards */,
 				2969ACD52A0759C400852462 /* Assets.xcassets */,
@@ -120,6 +131,23 @@
 				3E2F9A552861791000DA4403 /* Food Donator.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6C43C6F82A0E4F5F00D77B7E /* Job_hunt */ = {
+			isa = PBXGroup;
+			children = (
+				6C43C6F92A0E4F5F00D77B7E /* Tips1.swift */,
+				6C43C6FA2A0E4F5F00D77B7E /* Tips3.swift */,
+				6C43C6FB2A0E4F5F00D77B7E /* tips_1.swift */,
+				6C43C6FC2A0E4F5F00D77B7E /* Tips7.swift */,
+				6C43C6FD2A0E4F5F00D77B7E /* Tips5.swift */,
+				6C43C6FE2A0E4F5F00D77B7E /* Tips2.swift */,
+				6C43C6FF2A0E4F5F00D77B7E /* Job_Hunting_Guide_View.swift */,
+				6C43C7002A0E4F5F00D77B7E /* Tips4.swift */,
+				6C43C7012A0E4F5F00D77B7E /* Tips6.swift */,
+				6C43C7022A0E4F5F00D77B7E /* Job_Hunt_Menu_View.swift */,
+			);
+			path = Job_hunt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

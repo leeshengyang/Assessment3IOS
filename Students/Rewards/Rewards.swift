@@ -11,7 +11,7 @@ struct Rewards: View {
     var body: some View {
         ScrollView {
             VStack {
-                Image("image1").resizable()
+//                Image("image1").resizable()
                 Image("coupon1").resizable()
             }
         }

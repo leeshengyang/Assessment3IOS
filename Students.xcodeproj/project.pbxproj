@@ -93,8 +93,8 @@
 		2969ACD22A0759C400852462 /* Students */ = {
 			isa = PBXGroup;
 			children = (
+				CEE4795C2A0EE22300B759CE /* HealthInsurance */,
 				6C4A0BB02A0E676C00B80B35 /* Job Hunt */,
-				6C4A92EC2A0E76C00052CCE4 /* Health Insurance */,
 				2969ACD32A0759C400852462 /* Rewards */,
 				2969ACD52A0759C400852462 /* Assets.xcassets */,
 				2969ACD62A0759C400852462 /* Donate.swift */,
@@ -171,7 +171,7 @@
 			path = "Job Hunt";
 			sourceTree = "<group>";
 		};
-		6C4A92EC2A0E76C00052CCE4 /* Health Insurance */ = {
+		CEE4795C2A0EE22300B759CE /* HealthInsurance */ = {
 			isa = PBXGroup;
 			children = (
 				6C4A92F12A0E77290052CCE4 /* HealthInsuranceView.swift */,
@@ -183,7 +183,7 @@
 				6C4A92F92A0E77CB0052CCE4 /* ServicesView.swift */,
 				6C4A92FB2A0E77E60052CCE4 /* TreatmentView.swift */,
 			);
-			path = "Health Insurance";
+			path = HealthInsurance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

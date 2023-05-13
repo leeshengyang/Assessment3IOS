@@ -23,6 +23,7 @@
 		2969ACF32A0759C400852462 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969ACE32A0759C400852462 /* SwiftUIView.swift */; };
 		2969ACF42A0759C400852462 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969ACE42A0759C400852462 /* ContentView.swift */; };
 		2969ACF52A0759C400852462 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969ACE52A0759C400852462 /* LocationService.swift */; };
+		3E8B14392A0F93DA003F6FD4 /* Accommdations in Resources */ = {isa = PBXBuildFile; fileRef = 3E8B14382A0F93DA003F6FD4 /* Accommdations */; };
 		6C4A0BB22A0E677E00B80B35 /* Tips1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0BB12A0E677E00B80B35 /* Tips1.swift */; };
 		6C4A0BB42A0E67E800B80B35 /* Tips2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0BB32A0E67E800B80B35 /* Tips2.swift */; };
 		6C4A0BB62A0E699D00B80B35 /* Tips3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0BB52A0E699D00B80B35 /* Tips3.swift */; };
@@ -60,6 +61,7 @@
 		2969ACE42A0759C400852462 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2969ACE52A0759C400852462 /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		3E2F9A552861791000DA4403 /* Food Donator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Donator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8B14382A0F93DA003F6FD4 /* Accommdations */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Accommdations; path = ../../../Documents/Assessment3IOS/Students/Accommdations; sourceTree = "<group>"; };
 		6C4A0BB12A0E677E00B80B35 /* Tips1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips1.swift; sourceTree = "<group>"; };
 		6C4A0BB32A0E67E800B80B35 /* Tips2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips2.swift; sourceTree = "<group>"; };
 		6C4A0BB52A0E699D00B80B35 /* Tips3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips3.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		2969ACD22A0759C400852462 /* Students */ = {
 			isa = PBXGroup;
 			children = (
+				3E8B14382A0F93DA003F6FD4 /* Accommdations */,
 				CEE4795C2A0EE22300B759CE /* HealthInsurance */,
 				6C4A0BB02A0E676C00B80B35 /* Job Hunt */,
 				2969ACD32A0759C400852462 /* Rewards */,
@@ -246,6 +249,7 @@
 			files = (
 				2969ACEA2A0759C400852462 /* Preview Assets.xcassets in Resources */,
 				2969ACE72A0759C400852462 /* Assets.xcassets in Resources */,
+				3E8B14392A0F93DA003F6FD4 /* Accommdations in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

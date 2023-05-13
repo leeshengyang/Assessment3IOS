@@ -64,13 +64,13 @@ struct Accommadationsview: View {
         Group {
             switch option.title {
             case "Accommadationinformation":
-                Accommadationinformation()
+                Accommadation information()
             case "Accommdations":
                 Accommadations()
             case "Accommadationwebsites":
-                Accommadationwebsites()
+                Accommadation websites()
             case "Accommdationscities":
-                Accommadationscities()
+                Accommadations cities()
           
             default:
                 Text("Page not Found")
